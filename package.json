@@ -1,0 +1,32 @@
+{
+  "name": "phaser",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "ree": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokiLee/wavywater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TokiLee/wavywater/issues"
+  },
+  "homepage": "https://github.com/TokiLee/wavywater#readme",
+  "devDependencies": {
+    "expose-loader": "^0.7.5",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "p2": "^0.7.1",
+    "phaser-ce": "^2.11.0",
+    "pixi.js": "^4.8.2"
+  }
+}
