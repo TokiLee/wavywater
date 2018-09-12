@@ -21,6 +21,7 @@
   "homepage": "https://github.com/TokiLee/wavywater#readme",
   "devDependencies": {
     "expose-loader": "^0.7.5",
+    "file-loader": "^2.0.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   },

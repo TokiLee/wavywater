@@ -86,36 +86,36 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/expose-loader/index.js?PIXI!./node_modules/phaser-ce/build/custom/pixi.js":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/expose-loader?PIXI!./node_modules/phaser-ce/build/custom/pixi.js ***!
-  \***************************************************************************************/
+/***/ "./node_modules/expose-loader/index.js?PIXI!./node_modules/phaser-ce/build/custom/pixi.js-exposed":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/expose-loader?PIXI!./node_modules/phaser-ce/build/custom/pixi.js-exposed ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"PIXI\"] = __webpack_require__(/*! -!./pixi.js */ \"./node_modules/phaser-ce/build/custom/pixi.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/phaser-ce/build/custom/pixi.js?./node_modules/expose-loader?PIXI");
+eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"PIXI\"] = __webpack_require__(/*! -!./pixi.js */ \"./node_modules/phaser-ce/build/custom/pixi.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/phaser-ce/build/custom/pixi.js-exposed?./node_modules/expose-loader?PIXI");
 
 /***/ }),
 
-/***/ "./node_modules/expose-loader/index.js?Phaser!./node_modules/phaser-ce/build/custom/phaser-split.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/expose-loader?Phaser!./node_modules/phaser-ce/build/custom/phaser-split.js ***!
-  \*************************************************************************************************/
+/***/ "./node_modules/expose-loader/index.js?Phaser!./node_modules/phaser-ce/build/custom/phaser-split.js-exposed":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/expose-loader?Phaser!./node_modules/phaser-ce/build/custom/phaser-split.js-exposed ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"Phaser\"] = __webpack_require__(/*! -!./phaser-split.js */ \"./node_modules/phaser-ce/build/custom/phaser-split.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/phaser-ce/build/custom/phaser-split.js?./node_modules/expose-loader?Phaser");
+eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"Phaser\"] = __webpack_require__(/*! -!./phaser-split.js */ \"./node_modules/phaser-ce/build/custom/phaser-split.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/phaser-ce/build/custom/phaser-split.js-exposed?./node_modules/expose-loader?Phaser");
 
 /***/ }),
 
-/***/ "./node_modules/expose-loader/index.js?p2!./node_modules/phaser-ce/build/custom/p2.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/expose-loader?p2!./node_modules/phaser-ce/build/custom/p2.js ***!
-  \***********************************************************************************/
+/***/ "./node_modules/expose-loader/index.js?p2!./node_modules/phaser-ce/build/custom/p2.js-exposed":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/expose-loader?p2!./node_modules/phaser-ce/build/custom/p2.js-exposed ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"p2\"] = __webpack_require__(/*! -!./p2.js */ \"./node_modules/phaser-ce/build/custom/p2.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/phaser-ce/build/custom/p2.js?./node_modules/expose-loader?p2");
+eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"p2\"] = __webpack_require__(/*! -!./p2.js */ \"./node_modules/phaser-ce/build/custom/p2.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/phaser-ce/build/custom/p2.js-exposed?./node_modules/expose-loader?p2");
 
 /***/ }),
 
@@ -174,14 +174,103 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 
 /***/ }),
 
+/***/ "./src/assets sync recursive ^\\.\\/.*$":
+/*!**********************************!*\
+  !*** ./src/assets sync ^\.\/.*$ ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./player.png\": \"./src/assets/player.png\",\n\t\"./tiles/grass.png\": \"./src/assets/tiles/grass.png\",\n\t\"./tiles/rock.png\": \"./src/assets/tiles/rock.png\",\n\t\"./tiles/sand.png\": \"./src/assets/tiles/sand.png\",\n\t\"./tiles/sand_stone.png\": \"./src/assets/tiles/sand_stone.png\",\n\t\"./tiles/water.png\": \"./src/assets/tiles/water.png\",\n\t\"./tiles/wood.png\": \"./src/assets/tiles/wood.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src/assets_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./src/assets/player.png":
+/*!*******************************!*\
+  !*** ./src/assets/player.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"player.png?c15c907\";\n\n//# sourceURL=webpack:///./src/assets/player.png?");
+
+/***/ }),
+
+/***/ "./src/assets/tiles/grass.png":
+/*!************************************!*\
+  !*** ./src/assets/tiles/grass.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"grass.png?c6bf71b\";\n\n//# sourceURL=webpack:///./src/assets/tiles/grass.png?");
+
+/***/ }),
+
+/***/ "./src/assets/tiles/rock.png":
+/*!***********************************!*\
+  !*** ./src/assets/tiles/rock.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"rock.png?f2f93c6\";\n\n//# sourceURL=webpack:///./src/assets/tiles/rock.png?");
+
+/***/ }),
+
+/***/ "./src/assets/tiles/sand.png":
+/*!***********************************!*\
+  !*** ./src/assets/tiles/sand.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"sand.png?95b711e\";\n\n//# sourceURL=webpack:///./src/assets/tiles/sand.png?");
+
+/***/ }),
+
+/***/ "./src/assets/tiles/sand_stone.png":
+/*!*****************************************!*\
+  !*** ./src/assets/tiles/sand_stone.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"sand_stone.png?1f77aa7\";\n\n//# sourceURL=webpack:///./src/assets/tiles/sand_stone.png?");
+
+/***/ }),
+
+/***/ "./src/assets/tiles/water.png":
+/*!************************************!*\
+  !*** ./src/assets/tiles/water.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"water.png?6e883a0\";\n\n//# sourceURL=webpack:///./src/assets/tiles/water.png?");
+
+/***/ }),
+
+/***/ "./src/assets/tiles/wood.png":
+/*!***********************************!*\
+  !*** ./src/assets/tiles/wood.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"wood.png?ddbbe40\";\n\n//# sourceURL=webpack:///./src/assets/tiles/wood.png?");
+
+/***/ }),
+
 /***/ "./src/game.js":
 /*!*********************!*\
   !*** ./src/game.js ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("// Tile size is 63 x 35\r\n\r\nconst game = new Phaser.Game(800, 400, Phaser.AUTO, '', {preload: preload, create: create, update: update});\r\n\r\nlet water = [];\r\n\r\nfunction preload() {\r\n    game.time.advancedTiming = true;\r\n    game.debug.renderShadow = false;\r\n    // disableVisibilityChange makes it so it wont pause if browser/window is not active\r\n    game.stage.disableVisibilityChange = true;\r\n\r\n    game.plugins.add(new Phaser.Plugin.Isometric(game));\r\n\r\n    // Add tile sprites here\r\n    game.load.image('water', 'assets/tiles/water.png');\r\n    game.load.image('grass', 'assets/tiles/grass.png');\r\n    game.load.image('sand', 'assets/tiles/sand.png');\r\n    game.load.image('sand_stone', 'assets/tiles/sand_stone.png');\r\n    game.load.image('rock', 'assets/tiles/rock.png');\r\n    game.load.image('wood', 'assets/tiles/wood.png');\r\n\r\n    game.physics.startSystem(Phaser.Plugin.Isometric.ISOARCADE);\r\n    game.iso.anchor.setTo(0.5, 0.1);\r\n}\r\n\r\nfunction create() {\r\n    isoGroup = game.add.group();\r\n\r\n    isoGroup.enableBody = true;\r\n    isoGroup.physicsBodyType = Phaser.Plugin.Isometric.ISOARCADE;\r\n\r\n    const tileArray = [];\r\n    tileArray[0] = 'water';\r\n    tileArray[1] = 'grass';\r\n    tileArray[2] = 'sand';\r\n    tileArray[3] = 'sand_stone';\r\n    tileArray[4] = 'rock';\r\n    tileArray[5] = 'wood';\r\n\r\n\r\n    const tiles = [\r\n        // [1, 1, 2, 0, 0, 0, 0, 0, 4, 4, 2], \r\n        // [1, 2, 2, 0, 0, 0, 0, 0, 4, 4, 2],\r\n        // [2, 2, 0, 0, 0, 0, 0, 0, 4, 3, 2],\r\n        // [2, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4],\r\n        // [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4],\r\n        // [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 3],\r\n        // [2, 0, 0, 0, 0, 0, 0, 0, 4, 4, 3],\r\n        // [1, 1, 1, 0, 0, 0, 0, 0, 4, 3, 2],\r\n        // [1, 1, 1, 1, 0, 0, 0, 0, 4, 4, 2],\r\n        // [1, 1, 1, 1, 0, 0, 0, 0, 4, 4, 3]\r\n\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 2, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 2, 2, 2, 2, 2, 2, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 2,   2, 2, 0, 0, 0, 0, 0, 2, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 2, 2, 2, 2,   2, 2, 0, 0, 0, 0, 0, 2, 2, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 2, 2, 2, 2, 2, 2,   2, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 2, 2, 2, 2, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  2, 2, 2, 2, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  2, 2, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 2,  2, 2, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 2,  2, 2, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\r\n\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        \r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],      \r\n    ];\r\n\r\n    let size = 32;\r\n\r\n    let i = 0, xPos = 0, yPos = 0, tile;\r\n\r\n    for (let y = 0; y < tiles[i].length; y++) {\r\n        for (let x = 0; x < tiles.length; x++) {\r\n            tile = game.add.isoSprite(xPos, yPos, tileArray[tiles[x][y]].match('water') ? 0 : 3, tileArray[tiles[x][y]]);\r\n            xPos += size;\r\n            if (tiles[x][y] === 0) {\r\n                water.push(tile);\r\n            }\r\n        }\r\n        yPos += size;\r\n        xPos = 0;\r\n    }\r\n\r\n    //game.add.sprite(0,0, 'water');\r\n}\r\n\r\nfunction update() {\r\n    water.forEach(function (w) {\r\n        w.isoZ = (-2 * Math.sin((game.time.now + (w.isoX * 7)) * 0.004)) + (-1 * Math.sin((game.time.now + (w.isoY * 8)) * 0.005));\r\n        w.alpha = Phaser.Math.clamp(1 + (w.isoZ * 0.1), 0.2, 1);\r\n    });\r\n}\r\n\r\nfunction render() {\r\n    isoGroup.forEach(function (tile) {\r\n        game.debug.body(tile, 'rgba(189, 221, 235, 0.6)', false);\r\n    });\r\n    game.debug.text(game.time.fps || '--', 2, 14, \"#a7aebe\");\r\n    // game.debug.text(Phaser.VERSION, 2, game.world.height - 2, \"#ffff00\");\r\n}\n\n//# sourceURL=webpack:///./src/game.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_player_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/player.png */ \"./src/assets/player.png\");\n/* harmony import */ var _assets_player_png__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_player_png__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_tiles_water_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/tiles/water.png */ \"./src/assets/tiles/water.png\");\n/* harmony import */ var _assets_tiles_water_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_tiles_water_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_tiles_grass_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/tiles/grass.png */ \"./src/assets/tiles/grass.png\");\n/* harmony import */ var _assets_tiles_grass_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_tiles_grass_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _assets_tiles_sand_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/tiles/sand.png */ \"./src/assets/tiles/sand.png\");\n/* harmony import */ var _assets_tiles_sand_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_tiles_sand_png__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _assets_tiles_sand_stone_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/tiles/sand_stone.png */ \"./src/assets/tiles/sand_stone.png\");\n/* harmony import */ var _assets_tiles_sand_stone_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_tiles_sand_stone_png__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _assets_tiles_rock_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/tiles/rock.png */ \"./src/assets/tiles/rock.png\");\n/* harmony import */ var _assets_tiles_rock_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_tiles_rock_png__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _assets_tiles_wood_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/tiles/wood.png */ \"./src/assets/tiles/wood.png\");\n/* harmony import */ var _assets_tiles_wood_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_tiles_wood_png__WEBPACK_IMPORTED_MODULE_6__);\n// Tile size is 63p x 35p\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst game = new Phaser.Game(800, 400, Phaser.AUTO, '', {preload: preload, create: create, update: update, render: render});\r\n\r\nlet player1;\r\nlet cursors;\r\nlet isoGroup;\r\nlet tile;\r\nlet waterArray = [];\r\n\r\nfunction preload() {\r\n    game.time.advancedTiming = true;\r\n    game.debug.renderShadow = false;\r\n    // disableVisibilityChange makes it so it wont pause if browser/window is not active\r\n    game.stage.disableVisibilityChange = true;\r\n\r\n    game.plugins.add(new Phaser.Plugin.Isometric(game));\r\n\r\n    game.world.setBounds(0, 0, 640, 2560);\r\n\r\n    // load tile sprites\r\n    game.load.image('water', _assets_tiles_water_png__WEBPACK_IMPORTED_MODULE_1___default.a);\r\n    game.load.image('grass', _assets_tiles_grass_png__WEBPACK_IMPORTED_MODULE_2___default.a);\r\n    game.load.image('sand', _assets_tiles_sand_png__WEBPACK_IMPORTED_MODULE_3___default.a);\r\n    game.load.image('sand_stone', _assets_tiles_sand_stone_png__WEBPACK_IMPORTED_MODULE_4___default.a);\r\n    game.load.image('rock', _assets_tiles_rock_png__WEBPACK_IMPORTED_MODULE_5___default.a);\r\n    game.load.image('wood', _assets_tiles_wood_png__WEBPACK_IMPORTED_MODULE_6___default.a);\r\n\r\n    game.physics.startSystem(Phaser.Plugin.Isometric.ISOARCADE);\r\n    game.iso.anchor.setTo(0.5, 0);\r\n\r\n    game.load.image('player', _assets_player_png__WEBPACK_IMPORTED_MODULE_0___default.a);\r\n}\r\n\r\nfunction create() {\r\n    isoGroup = game.add.group();\r\n\r\n    // isoGroup.enableBody = true;\r\n    // isoGroup.physicsBodyType = Phaser.Plugin.Isometric.ISOARCADE;\r\n\r\n    const tileArray = [];\r\n    tileArray[0] = 'water';\r\n    tileArray[1] = 'grass';\r\n    tileArray[2] = 'sand';\r\n    tileArray[3] = 'sand_stone';\r\n    tileArray[4] = 'rock';\r\n    tileArray[5] = 'wood';\r\n\r\n\r\n    const tiles = [\r\n        // [1, 1, 2, 0, 0, 0, 0, 0, 4, 4, 2], \r\n        // [1, 2, 2, 0, 0, 0, 0, 0, 4, 4, 2],\r\n        // [2, 2, 0, 0, 0, 0, 0, 0, 4, 3, 2],\r\n        // [2, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4],\r\n        // [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4],\r\n        // [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 3],\r\n        // [2, 0, 0, 0, 0, 0, 0, 0, 4, 4, 3],\r\n        // [1, 1, 1, 0, 0, 0, 0, 0, 4, 3, 2],\r\n        // [1, 1, 1, 1, 0, 0, 0, 0, 4, 4, 2],\r\n        // [1, 1, 1, 1, 0, 0, 0, 0, 4, 4, 3]\r\n\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 1, 1, 2, 1, 1, 1, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   1, 2, 2, 2, 2, 2, 2, 1, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, 1, 2,   2, 2, 0, 0, 0, 0, 0, 2, 1, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 2, 2, 2, 2,   2, 2, 0, 0, 0, 0, 0, 2, 2, 1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 2, 2, 2, 2, 2, 2,   2, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1, 2, 2, 2, 2, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  2, 2, 2, 2, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  2, 2, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 2,  2, 2, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n        [1, 1, 1, 1, 1, 1, 1, 1, 1, 2,  2, 2, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\r\n\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        \r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],\r\n        // [],      \r\n    ];\r\n\r\n    let size = 32;\r\n\r\n    let i = 0, xPos = 0, yPos = 0;\r\n\r\n    for (let y = 0; y < tiles[i].length; y++) {\r\n        for (let x = 0; x < tiles.length; x++) {\r\n            tile = game.add.isoSprite(xPos, yPos, tileArray[tiles[x][y]].match('water') ? 0 : 3, tileArray[tiles[x][y]], 0, isoGroup);\r\n            tile.anchor.set(0.5, 1);\r\n            tile.smoothed = false;\r\n            //tile.body.moves = false;\r\n            xPos += size;\r\n            if (tiles[x][y] === 0) {\r\n                waterArray.push(tile);\r\n            }\r\n        }\r\n        yPos += size;\r\n        xPos = 0;\r\n    }\r\n\r\n    console.log(tile);\r\n\r\n    console.log(isoGroup);\r\n    //game.add.sprite(0,0, 'water');\r\n\r\n    game.physics.startSystem(Phaser.Physics.P2JS);\r\n\r\n    player1 = game.add.sprite(game.world.centerX, game.world.centerY, 'player');\r\n\r\n    game.physics.p2.enable(player1);\r\n\r\n    player1.body.collideWorldBounds = true;\r\n\r\n    this.cursors = game.input.keyboard.createCursorKeys();\r\n\r\n    this.game.input.keyboard.addKeyCapture([\r\n        Phaser.Keyboard.LEFT,\r\n        Phaser.Keyboard.RIGHT,\r\n        Phaser.Keyboard.UP,\r\n        Phaser.Keyboard.DOWN\r\n    ]);\r\n\r\n    game.camera.follow(player1);\r\n}\r\n\r\nfunction update() {\r\n    var speed = 100;\r\n\r\n    if (this.cursors.up.isDown) {\r\n        player1.body.velocity.y = -speed;\r\n    }\r\n    else if (this.cursors.down.isDown) {\r\n        player1.body.velocity.y = speed;\r\n    }\r\n    else {\r\n        player1.body.velocity.y = 0;\r\n    }\r\n\r\n    if (this.cursors.left.isDown) {\r\n        player1.body.velocity.x = -speed;\r\n    }\r\n    else if (this.cursors.right.isDown) {\r\n        player1.body.velocity.x = speed;\r\n    }\r\n    else {\r\n        player1.body.velocity.x = 0;\r\n    }\r\n\r\n    waterArray.forEach(function (w) {\r\n        w.isoZ = (-2 * Math.sin((game.time.now + (w.isoX * 7)) * 0.004)) + (-1 * Math.sin((game.time.now + (w.isoY * 8)) * 0.005));\r\n        w.alpha = Phaser.Math.clamp(1 + (w.isoZ * 0.1), 0.2, 1);\r\n    });\r\n\r\n}\r\n\r\nfunction render() {\r\n    isoGroup.forEach(function (tile) {\r\n        game.debug.body(tile, 'rgba(189, 221, 235, 0.6)', false);\r\n    });\r\n    game.debug.text(game.time.fps || '--', 2, 14, \"#a7aebe\");\r\n    game.debug.text(Phaser.VERSION, 2, game.world.height - 2, \"#ffff00\");\r\n}\n\n//# sourceURL=webpack:///./src/game.js?");
 
 /***/ }),
 
@@ -193,7 +282,7 @@ eval("// Tile size is 63 x 35\r\n\r\nconst game = new Phaser.Game(800, 400, Phas
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var expose_loader_PIXI_phaser_ce_build_custom_pixi__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! expose-loader?PIXI!phaser-ce/build/custom/pixi */ \"./node_modules/expose-loader/index.js?PIXI!./node_modules/phaser-ce/build/custom/pixi.js\");\n/* harmony import */ var expose_loader_PIXI_phaser_ce_build_custom_pixi__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(expose_loader_PIXI_phaser_ce_build_custom_pixi__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var expose_loader_p2_phaser_ce_build_custom_p2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! expose-loader?p2!phaser-ce/build/custom/p2 */ \"./node_modules/expose-loader/index.js?p2!./node_modules/phaser-ce/build/custom/p2.js\");\n/* harmony import */ var expose_loader_p2_phaser_ce_build_custom_p2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(expose_loader_p2_phaser_ce_build_custom_p2__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var expose_loader_Phaser_phaser_ce_build_custom_phaser_split__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! expose-loader?Phaser!phaser-ce/build/custom/phaser-split */ \"./node_modules/expose-loader/index.js?Phaser!./node_modules/phaser-ce/build/custom/phaser-split.js\");\n/* harmony import */ var expose_loader_Phaser_phaser_ce_build_custom_phaser_split__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(expose_loader_Phaser_phaser_ce_build_custom_phaser_split__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _phaser_plugin_isometric__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./phaser-plugin-isometric */ \"./src/phaser-plugin-isometric.js\");\n/* harmony import */ var _phaser_plugin_isometric__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_phaser_plugin_isometric__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _game_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./game.js */ \"./src/game.js\");\n/* harmony import */ var _game_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_game_js__WEBPACK_IMPORTED_MODULE_4__);\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var expose_loader_PIXI_phaser_ce_build_custom_pixi__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! expose-loader?PIXI!phaser-ce/build/custom/pixi */ \"./node_modules/expose-loader/index.js?PIXI!./node_modules/phaser-ce/build/custom/pixi.js-exposed\");\n/* harmony import */ var expose_loader_PIXI_phaser_ce_build_custom_pixi__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(expose_loader_PIXI_phaser_ce_build_custom_pixi__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var expose_loader_p2_phaser_ce_build_custom_p2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! expose-loader?p2!phaser-ce/build/custom/p2 */ \"./node_modules/expose-loader/index.js?p2!./node_modules/phaser-ce/build/custom/p2.js-exposed\");\n/* harmony import */ var expose_loader_p2_phaser_ce_build_custom_p2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(expose_loader_p2_phaser_ce_build_custom_p2__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var expose_loader_Phaser_phaser_ce_build_custom_phaser_split__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! expose-loader?Phaser!phaser-ce/build/custom/phaser-split */ \"./node_modules/expose-loader/index.js?Phaser!./node_modules/phaser-ce/build/custom/phaser-split.js-exposed\");\n/* harmony import */ var expose_loader_Phaser_phaser_ce_build_custom_phaser_split__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(expose_loader_Phaser_phaser_ce_build_custom_phaser_split__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _phaser_plugin_isometric__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./phaser-plugin-isometric */ \"./src/phaser-plugin-isometric.js\");\n/* harmony import */ var _phaser_plugin_isometric__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_phaser_plugin_isometric__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _game_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./game.js */ \"./src/game.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nfunction requireAll(r) { r.keys().forEach(r); }\r\nrequireAll(__webpack_require__(\"./src/assets sync recursive ^\\\\.\\\\/.*$\"));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

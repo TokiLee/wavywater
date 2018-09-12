@@ -3,3 +3,6 @@ import p2 from 'expose-loader?p2!phaser-ce/build/custom/p2'
 import Phaser from 'expose-loader?Phaser!phaser-ce/build/custom/phaser-split'
 import './phaser-plugin-isometric';
 import './game.js';
+
+function requireAll(r) { r.keys().forEach(r); }
+requireAll(require.context('./assets', true));
